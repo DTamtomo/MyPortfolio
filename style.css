@@ -59,6 +59,7 @@ body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
+  background-image: url(img/bulet.jpg);
 }
 h1,
 h2,
@@ -140,7 +141,7 @@ img {
     width: 80%;
     height: 100%;
     padding: 2rem;
-    background-color: var(--second-color);
+    background-color: #a126cc;
     transition: 0.5s;
   }
 }
@@ -161,7 +162,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
 }
 .nav__logo {
   color: var(--second-color);
@@ -171,7 +172,9 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 }
-
+.bx bxl-youtube {
+  color: white;
+}
 /*Active menu*/
 .active::after {
   position: absolute;
@@ -182,7 +185,9 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
-
+.l-header {
+  background: linear-gradient(to right, #228b22 0%, DarkMagenta 50%);
+}
 /*=== Show menu ===*/
 .show {
   right: 0;
@@ -199,6 +204,7 @@ img {
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: lightskyblue;
 }
 .home__title-color {
   color: var(--first-color);
@@ -214,7 +220,7 @@ img {
   color: var(--second-color);
 }
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: lightskyblue;
 }
 .home__img {
   position: absolute;
@@ -226,7 +232,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
   color: #fff;
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -234,6 +240,7 @@ img {
 }
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(to right, #ffff00 0%, DarkMagenta 50%);
 }
 
 /* ===== ABOUT =====*/
@@ -250,6 +257,12 @@ img {
 .about__img img {
   width: 200px;
   border-radius: 0.5rem;
+}
+.about__text {
+  color: lightskyblue;
+}
+.about__subtitle {
+  color: lightsteelblue;
 }
 
 /* ===== SKILLS =====*/
@@ -293,19 +306,35 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 80%;
+  color: lightskyblue;
 }
 .skills__css {
-  width: 85%;
+  width: 70%;
+  color: lightskyblue;
 }
 .skills__js {
-  width: 65%;
+  width: 30%;
+  color: lightskyblue;
 }
 .skills__ux {
-  width: 85%;
+  width: 60%;
+  color: lightskyblue;
 }
 .skills__img {
   border-radius: 0.5rem;
+}
+.skills__subtitle {
+  color: lightskyblue;
+}
+.skills__text {
+  color: lightskyblue;
+}
+.skills__name {
+  color: lightskyblue;
+}
+.skills__percentage {
+  color: lightskyblue;
 }
 
 /* ===== WORK =====*/
@@ -359,6 +388,9 @@ img {
 }
 .footer__social {
   margin-bottom: var(--mb-4);
+}
+.footer__social:hover {
+  color: lightskyblue;
 }
 .footer__icon {
   font-size: 1.5rem;
