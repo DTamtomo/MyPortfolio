@@ -164,8 +164,13 @@ img {
   top: 2rem;
   background: linear-gradient(to right, #ffff00 0%, #ff3399 100%);
 }
+.navlogo {
+  color: black;
+  text-shadow: 1px 1px 1px black;
+}
 .nav__logo {
   color: var(--second-color);
+  text-shadow: 1px 1px 1px black;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -237,6 +242,7 @@ img {
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
+  text-shadow: 1px 1px 1px black;
 }
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
@@ -260,6 +266,7 @@ img {
 }
 .about__text {
   color: lightskyblue;
+  text-shadow: 10px 10px 10px black;
 }
 .about__subtitle {
   color: lightsteelblue;
@@ -364,6 +371,9 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+}
+.section-title {
+  text-shadow: 5px 5px 5px black;
 }
 .contact__button {
   display: block;
