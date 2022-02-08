@@ -327,7 +327,7 @@ img {
   color: lightskyblue;
 }
 .skills__ux {
-  width: 60%;
+  width: 100%;
   color: lightskyblue;
 }
 .skills__img {
@@ -391,6 +391,10 @@ img {
 }
 .btn btn-primary {
   background: linear-gradient(to right, #ffff00 0%, DarkMagenta 50%);
+  transition: 1s;
+}
+.btn btn-primary:hover {
+  transform: skew(30deg);
 }
 .col {
   color: DarkMagenta;
