@@ -60,6 +60,8 @@ body {
   font-size: var(--normal-font-size);
   color: var(--second-color);
   background-image: url(img/bulet.jpg);
+  background-size: cover;
+  
 }
 h1,
 h2,
@@ -99,6 +101,7 @@ img {
   margin: auto;
   top: 2rem;
   background-color: var(--first-color);
+  
 }
 .section {
   padding-top: 3rem;
